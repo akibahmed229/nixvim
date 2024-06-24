@@ -13,5 +13,6 @@
   ./none-ls
   ./snippets
   ./completion
+  ./utils
   ];
 }
