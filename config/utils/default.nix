@@ -4,7 +4,7 @@
     ./persistence.nix
     ./autopairs.nix
     ./comment-nvim.nix
-    ./sidebar.nix
+    # ./sidebar.nix
     ./markdown-preview.nix
   ];
 }
