@@ -58,6 +58,8 @@
         eslint = {enable = true;};
         pyright = {enable = true;};
         ruff-lsp = {enable = true;};
+        tailwindcss = {enable = true;};
+        html = {enable = true;};
 
         rust-analyzer = {
           enable = true;
