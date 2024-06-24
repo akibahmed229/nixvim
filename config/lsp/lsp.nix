@@ -60,6 +60,7 @@
         ruff-lsp = {enable = true;};
         tailwindcss = {enable = true;};
         html = {enable = true;};
+        cssls = {enable = true;};
 
         rust-analyzer = {
           enable = true;
