@@ -2,7 +2,7 @@
   plugins.copilot-lua = {
     enable = true;
     panel = {
-      enabled = false;
+      enabled = true;
       autoRefresh = true;
       keymap = {
         jumpPrev = "[[";
@@ -17,7 +17,7 @@
       };
     };
     suggestion = {
-      enabled = false;
+      enabled = true;
       autoTrigger = true;
       debounce = 75;
       keymap = {
@@ -41,6 +41,6 @@
       "." = false;
     };
     copilotNodeCommand = "node"; # Node.js version must be > 18.x
-    serverOptsOverrides = { };
+    serverOptsOverrides = {};
   };
 }
