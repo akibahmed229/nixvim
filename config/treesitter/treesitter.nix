@@ -1,4 +1,4 @@
-{pkgs, ...}: 
+{ pkgs, ... }:
 {
   plugins = {
     treesitter = {
@@ -11,7 +11,7 @@
 
       grammarPackages = with pkgs;
         vimPlugins.nvim-treesitter.passthru.allGrammars
-        ++ (with tree-sitter-grammars; [tree-sitter-nu]);
+        ++ (with tree-sitter-grammars; [ tree-sitter-nu ]);
     };
   };
 }

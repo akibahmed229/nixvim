@@ -1,8 +1,8 @@
 {
   imports = [
-  ./diffview.nix
-  # ./lazygit.nix
-  ./neogit.nix
-  ./gitsigns.nix
+    ./diffview.nix
+    # ./lazygit.nix
+    ./neogit.nix
+    ./gitsigns.nix
   ];
 }

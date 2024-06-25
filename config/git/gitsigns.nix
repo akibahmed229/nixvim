@@ -8,7 +8,7 @@
   };
   keymaps = [
     {
-      mode = ["n" "v"];
+      mode = [ "n" "v" ];
       key = "<leader>gh";
       action = "gitsigns";
       options = {
@@ -53,7 +53,7 @@
       };
     }
     {
-      mode = ["n" "v"];
+      mode = [ "n" "v" ];
       key = "<leader>ghr";
       action = ":Gitsigns reset_hunk<CR>";
       options = {
@@ -62,7 +62,7 @@
       };
     }
     {
-      mode = ["n" "v"];
+      mode = [ "n" "v" ];
       key = "<leader>ghs";
       action = ":Gitsigns stage_hunk<CR>";
       options = {
