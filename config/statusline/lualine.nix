@@ -1,7 +1,7 @@
 {
   plugins.lualine = {
     enable = true;
-    theme =  "nord";
+    theme = "nord";
 
     componentSeparators = {
       left = "";
