@@ -1,3 +1,6 @@
 {
-  imports = [ ./alpha.nix ];
+  imports = [ 
+  ./alpha.nix 
+  ./indent-blankline.nix
+  ];
 }

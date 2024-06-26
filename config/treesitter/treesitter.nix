@@ -4,7 +4,7 @@
     treesitter = {
       enable = true;
       indent = true;
-      ensureInstalled = [ "c" "lua" "vim" "vimdoc" "query" "elixir" "heex" "javascript" "html" "nix" ];
+      ensureInstalled = [ "c" "lua" "vim" "vimdoc" "query" "elixir" "heex" "javascript" "html" "nix" "python" "rust" "css" "sql" "java" "json" "typescript" "yaml" "toml" "bash"];
       nixvimInjections = true;
 
       languageRegister.nu = "nu";

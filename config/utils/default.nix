@@ -7,5 +7,6 @@
     # ./sidebar.nix
     ./markdown-preview.nix
     ./undotree.nix
+    ./whichkey.nix
   ];
 }
