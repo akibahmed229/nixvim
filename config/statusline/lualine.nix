@@ -1,6 +1,7 @@
-{ pkgs, ... }: {
+{
   plugins.lualine = {
     enable = true;
+    theme =  "everforest";
 
     componentSeparators = {
       left = "";
