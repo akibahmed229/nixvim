@@ -1,7 +1,7 @@
 {
   plugins.lualine = {
     enable = true;
-    theme =  "everforest";
+    theme =  "nord";
 
     componentSeparators = {
       left = "";
