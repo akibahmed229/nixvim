@@ -4,9 +4,9 @@
     ./persistence.nix
     ./autopairs.nix
     ./comment-nvim.nix
-    # ./sidebar.nix
     ./markdown-preview.nix
     ./undotree.nix
     ./whichkey.nix
+    ./plenary.nix
   ];
 }
