@@ -56,11 +56,21 @@
           };
         };
         eslint = { enable = true; };
+
         pyright = { enable = true; };
         ruff-lsp = { enable = true; };
+
+        html = {
+          enable = true;
+          autostart = true;
+          filetypes = [ "html" "htmldjango" ];
+        };
+        cssls = {
+          enable = true;
+          autostart = true;
+          filetypes = [ "css" "scss" "less" "sass" ];
+        };
         tailwindcss = { enable = true; };
-        html = { enable = true; };
-        cssls = { enable = true; };
 
         rust-analyzer = {
           enable = true;
