@@ -6,5 +6,6 @@
     ./comment-nvim.nix
     # ./sidebar.nix
     ./markdown-preview.nix
+    ./undotree.nix
   ];
 }
