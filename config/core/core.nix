@@ -11,7 +11,7 @@
       {
         mode = "n";
         key = "<leader>x";
-        action = "<cmd>bd<CR>";
+        action = "<cmd>bw<CR>";
         options.desc = "Quit Buffer";
       }
       {
@@ -20,7 +20,6 @@
         action = "<cmd>w<CR>";
         options.desc = "Save Current Buffer";
       }
-
       {
         mode = "n";
         key = "<C-h>";
