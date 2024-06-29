@@ -1,3 +1,3 @@
 {
-  imports = [ ./lualine.nix ];
+  imports = [./lualine.nix];
 }

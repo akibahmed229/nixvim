@@ -1,3 +1,3 @@
 {
-  imports = [ ./telescope.nix ];
+  imports = [./telescope.nix];
 }

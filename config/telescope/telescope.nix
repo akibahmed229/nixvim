@@ -1,8 +1,4 @@
-{ pkgs
-, ...
-}:
-
-{
+{pkgs, ...}: {
   plugins.telescope = {
     enable = true;
     settings.defaults = {

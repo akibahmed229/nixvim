@@ -1,3 +1,3 @@
 {
-  imports = [ ./neo-tree.nix ];
+  imports = [./neo-tree.nix];
 }

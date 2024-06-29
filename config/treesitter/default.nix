@@ -1,3 +1,3 @@
 {
-  imports = [ ./treesitter.nix ];
+  imports = [./treesitter.nix];
 }
