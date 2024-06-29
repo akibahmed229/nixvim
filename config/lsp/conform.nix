@@ -3,10 +3,10 @@
     enable = true;
     notifyOnError = true;
     formattersByFt = {
-      html = [ [ "prettierd" "prettier" ] ];
-      css = [ [ "prettierd" "prettier" ] ];
-      javascript = [ [ "prettierd" "prettier" ] ];
-      javascriptreact = [ [ "prettierd" "prettier" ] ];
+      html = [ [ "prettier" "prettierd" ] ];
+      css = [ [ "prettier" "prettierd" ] ];
+      javascript = [ [ "prettier" "prettierd" ] ];
+      javascriptreact = [ [ "prettier" "prettierd" ] ];
       typescript = [ [ "prettierd" "prettier" ] ];
       typescriptreact = [ [ "prettierd" "prettier" ] ];
       java = [ "google-java-format" ];

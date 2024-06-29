@@ -5,8 +5,14 @@
     };
     lsp = {
       enable = true;
-      capabilities = "offsetEncoding =  'utf-16'";
+      # capabilities = "offsetEncoding =  'utf-16'";
       servers = {
+        eslint = { enable = true; };
+        pyright = { enable = true; };
+        ruff-lsp = { enable = true; };
+        tailwindcss = { enable = true; };
+        html.enable = true;
+        cssls.enable = true;
         clangd = { enable = true; };
         lua-ls = {
           enable = true;
@@ -55,23 +61,6 @@
             };
           };
         };
-        eslint = { enable = true; };
-
-        pyright = { enable = true; };
-        ruff-lsp = { enable = true; };
-
-        html = {
-          enable = true;
-          autostart = true;
-          filetypes = [ "html" "htmldjango" ];
-        };
-        cssls = {
-          enable = true;
-          autostart = true;
-          filetypes = [ "css" "scss" "less" "sass" ];
-        };
-        tailwindcss = { enable = true; };
-
         rust-analyzer = {
           enable = true;
           installCargo = true;
@@ -151,27 +140,27 @@
       # };
     };
   };
-  extraConfigLua = ''
-    local _border = "rounded"
+  #extraConfigLua = ''
+  #  local _border = "rounded"
 
-    vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(
-      vim.lsp.handlers.hover, {
-        border = _border
-      }
-    )
+  #  vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(
+  #    vim.lsp.handlers.hover, {
+  #      border = _border
+  #    }
+  #  )
 
-    vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(
-      vim.lsp.handlers.signature_help, {
-        border = _border
-      }
-    )
+  #  vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(
+  #    vim.lsp.handlers.signature_help, {
+  #      border = _border
+  #    }
+  #  )
 
-    vim.diagnostic.config{
-      float={border=_border}
-    };
+  #  vim.diagnostic.config{
+  #    float={border=_border}
+  #  };
 
-    require('lspconfig.ui.windows').default_options = {
-      border = _border
-    }
-  '';
+  #  require('lspconfig.ui.windows').default_options = {
+  #    border = _border
+  #  }
+  #'';
 }
