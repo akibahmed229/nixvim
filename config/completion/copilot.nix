@@ -3,7 +3,7 @@
     enable = true;
     panel = {
       enabled = false;
-      autoRefresh = true;
+      autoRefresh = false;
       keymap = {
         jumpPrev = "[[";
         jumpNext = "]]";
